@@ -443,6 +443,89 @@
             
         
         <article class="index-post">
+            <a class="abstract-title" href="/2022/10/30/%E5%85%B3%E4%BA%8E%E7%BA%A2%E9%BB%91%E6%A0%91/">
+                
+                <span class="abstract-title-text">关于红黑树</span>
+            </a>
+            <div class="abstract-content">
+                关于红黑树的理解1.二叉搜索树：左子树上的所有节点的值均&lt;=父节点的值
+右子树上的所有节点的值均&gt;=父节点的值
+左右子树也分别为二叉搜索树
+致命缺点：
+当要插入的值都大于原有的值，则
+
+这种最坏情况下时间复杂度为O（N）；
+为了避免这种情况：平衡树诞生
+2.平衡树（红黑树是其中的一种）红黑树 查找/插入/删除
+时间复杂度：O（logN）
+红黑树的前身234树/4阶B树
+234树：是一种多叉树它的每个节点，最多有3个数据项和4个子节点
+节点一共分为三类
+2节点/3节点/4节点
+
+超过3个数据项就（从中间）上溢
+
+
+红黑树的性质：1.节点是红色或黑色
+2.根节点是黑色
+3.叶子节...
+            </div>
+            <!-- read more -->
+            
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2022/11/09">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/10/30</span>
+                </div>
+                <!-- tags -->
+                
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+    
+        
+        
+        
+        
+            
+        
+        <article class="index-post">
+            <a class="abstract-title" href="/2022/10/28/%E9%9D%A2%E8%AF%95%E9%A2%98/">
+                
+                <span class="abstract-title-text">面试题</span>
+            </a>
+            <div class="abstract-content">
+                一：关于Object o=new Object()1.请解释以下对象的创建过程？（半初始化）1：申请空间，设置默认值（new）
+2：调构造方法，设初始值（invokespecial）
+3：建立关联（astore_1）
+2.加问DCL要不要加volation问题？（指令重排）DCL：double check lock 双检锁
+
+synchronized内部可以指令重排序
+但是并不能拿到synchronized内部的中间值（因为被锁定）
+volatile的作用：1禁止指令重排序，2保证线程之间的可见性
+所以需要
+3.对象在内存中的存储布局（对象与数组的存储不同）对象：markword:对象头...
+            </div>
+            <!-- read more -->
+            
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2022/11/09">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2022/10/28</span>
+                </div>
+                <!-- tags -->
+                
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+    
+        
+        
+        
+        
+            
+        
+        <article class="index-post">
             <a class="abstract-title" href="/2022/10/28/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/">
                 
                 <span class="abstract-title-text">排序算法</span>
@@ -730,7 +813,29 @@
         
         
         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         
         
@@ -741,7 +846,7 @@
     
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 3
+        Total : 5
         </div>
         <!-- search  -->
         
@@ -758,6 +863,12 @@
         
         <li class="archive-post-item">
             <span class="archive-post-date">10/28</span>
+            <a class="archive-post-title" href="/2022/10/28/%E9%9D%A2%E8%AF%95%E9%A2%98/">面试题</a>
+        </li>
+    
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">10/28</span>
             <a class="archive-post-title" href="/2022/10/28/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95/">排序算法</a>
         </li>
     
@@ -771,6 +882,21 @@
         <li class="archive-post-item">
             <span class="archive-post-date">10/16</span>
             <a class="archive-post-title" href="/2022/10/16/%E5%85%B3%E4%BA%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">波兰与逆波兰表达式</a>
+        </li>
+    
+        
+            
+            
+                
+                </ul>
+            
+            <div class="archive-year"> Invalid date </div>
+            <ul class="year-list">
+            
+        
+        <li class="archive-post-item">
+            <span class="archive-post-date">Invalid date</span>
+            <a class="archive-post-title" href="/2022/10/30/%E5%85%B3%E4%BA%8E%E7%BA%A2%E9%BB%91%E6%A0%91/">关于红黑树</a>
         </li>
     
     </div>
